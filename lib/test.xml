@@ -1,0 +1,13 @@
+<Container>
+    <Head>
+        <P>This is Junaead</P>
+    </Head>
+
+    <Body>
+        <p> This is called Body</p>
+    </Body>
+
+    <Footr>
+        <p>This is called Footer</p>
+    </Footr>
+</Container>

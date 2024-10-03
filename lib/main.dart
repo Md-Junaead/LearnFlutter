@@ -31,7 +31,20 @@ class HomeActivity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(child: Text("junaead")),
+            ListTile(title: Text("Home")),
+            ListTile(title: Text("Contact")),
+            ListTile(title: Text("Profile")),
+            ListTile(title: Text("Email")),
+            ListTile(title: Text("Phone")),
+          ],
+        ),
+      ),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 0,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.message), label: "Message"),
